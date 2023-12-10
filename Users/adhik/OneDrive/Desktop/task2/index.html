@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LastFM App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container mt-4">
+    <h1>LastFM App</h1>
+    <br />
+    <label for="artistInput">Enter Artist:</label>
+    <input type="text" id="artistInput" class="form-control" placeholder="Enter artist name">
+    <button id="searchButton" class="btn btn-primary mt-2">Search</button>
+    <div id="resultCountContainer" class="mt-4" style="float: right"></div>
+    <div id="resultContainer" class="mt-4">
+      <!-- Display the results here -->
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
